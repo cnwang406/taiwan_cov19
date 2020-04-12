@@ -41,7 +41,7 @@
         "nodes" : [
 
         ],
-        "frame" : "{{214, 20}, {127, 34}}",
+        "frame" : "{{214, 20}, {150, 34}}",
         "class" : "Slider",
         "attributes" : {
           "flex" : "W",
@@ -59,7 +59,7 @@
         "nodes" : [
 
         ],
-        "frame" : "{{214, 62}, {127, 34}}",
+        "frame" : "{{214, 62}, {150, 34}}",
         "class" : "Slider",
         "attributes" : {
           "flex" : "W",
@@ -81,13 +81,13 @@
         "class" : "TextField",
         "attributes" : {
           "name" : "txtChild",
-          "background_color" : "RGBA(0.991597,1.000000,0.941176,1.000000)",
+          "alignment" : "left",
           "frame" : "{{74, 314}, {200, 32}}",
           "spellchecking_type" : "default",
           "class" : "TextField",
-          "uuid" : "07B9B679-8049-45B6-82BF-3D44D5916A76",
-          "alignment" : "left",
           "text" : "100",
+          "background_color" : "RGBA(0.991597,1.000000,0.941176,1.000000)",
+          "uuid" : "07B9B679-8049-45B6-82BF-3D44D5916A76",
           "autocorrection_type" : "default",
           "font_size" : 17,
           "font_name" : "<System>"
@@ -101,14 +101,14 @@
         "frame" : "{{122, 63}, {84, 38}}",
         "class" : "TextField",
         "attributes" : {
+          "alignment" : "left",
           "font_name" : "<System>",
-          "background_color" : "RGBA(0.987395,1.000000,0.911765,1.000000)",
           "frame" : "{{74, 314}, {200, 32}}",
           "spellchecking_type" : "default",
           "class" : "TextField",
-          "uuid" : "07B9B679-8049-45B6-82BF-3D44D5916A76",
-          "alignment" : "left",
           "text" : "0",
+          "background_color" : "RGBA(0.987395,1.000000,0.911765,1.000000)",
+          "uuid" : "07B9B679-8049-45B6-82BF-3D44D5916A76",
           "autocorrection_type" : "default",
           "name" : "txtAdult",
           "font_size" : 17
@@ -141,13 +141,13 @@
         "class" : "TextField",
         "attributes" : {
           "font_size" : 17,
-          "background_color" : "RGBA(0.987395,1.000000,0.911765,1.000000)",
+          "alignment" : "left",
           "frame" : "{{74, 314}, {200, 32}}",
           "spellchecking_type" : "default",
           "class" : "TextField",
-          "uuid" : "07B9B679-8049-45B6-82BF-3D44D5916A76",
-          "alignment" : "left",
           "text" : "5",
+          "background_color" : "RGBA(0.987395,1.000000,0.911765,1.000000)",
+          "uuid" : "07B9B679-8049-45B6-82BF-3D44D5916A76",
           "autocorrection_type" : "default",
           "name" : "txtDistance",
           "font_name" : "<System>"
@@ -158,7 +158,7 @@
         "nodes" : [
 
         ],
-        "frame" : "{{212, 109}, {129, 34}}",
+        "frame" : "{{212, 109}, {152, 34}}",
         "class" : "Slider",
         "attributes" : {
           "flex" : "W",
@@ -197,25 +197,25 @@
         "frame" : "{{122.00000000000001, 155}, {83.999999999999986, 38.000000000000028}}",
         "class" : "TextField",
         "attributes" : {
+          "alignment" : "left",
           "font_name" : "<System>",
-          "background_color" : "RGBA(0.974790,1.000000,0.823529,1.000000)",
           "frame" : "{{74, 314}, {200, 32}}",
           "spellchecking_type" : "default",
           "class" : "TextField",
-          "uuid" : "07B9B679-8049-45B6-82BF-3D44D5916A76",
-          "alignment" : "left",
           "text" : "5",
+          "background_color" : "RGBA(0.974790,1.000000,0.823529,1.000000)",
+          "uuid" : "07B9B679-8049-45B6-82BF-3D44D5916A76",
           "autocorrection_type" : "default",
           "font_size" : 17,
           "name" : "txtMaxCount"
         },
-        "selected" : true
+        "selected" : false
       },
       {
         "nodes" : [
 
         ],
-        "frame" : "{{212, 155}, {129, 34}}",
+        "frame" : "{{212, 155}, {152, 34}}",
         "class" : "Slider",
         "attributes" : {
           "flex" : "W",
@@ -255,7 +255,7 @@
         "nodes" : [
 
         ],
-        "frame" : "{{6, 241}, {335, 419}}",
+        "frame" : "{{6, 241}, {358, 419}}",
         "class" : "TextView",
         "attributes" : {
           "uuid" : "0584A3BA-03C7-49C9-A958-8643AE6AD2C9",
@@ -278,7 +278,7 @@
         "nodes" : [
 
         ],
-        "frame" : "{{122, 201.00000000000003}, {102, 32}}",
+        "frame" : "{{104, 201}, {102, 32}}",
         "class" : "TextField",
         "attributes" : {
           "name" : "txtHomeLon",
@@ -298,7 +298,7 @@
         "nodes" : [
 
         ],
-        "frame" : "{{239, 201.00000000000003}, {102, 32}}",
+        "frame" : "{{212, 201}, {102, 32}}",
         "class" : "TextField",
         "attributes" : {
           "font_name" : "<System>",
@@ -313,15 +313,34 @@
           "font_size" : 17
         },
         "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{322, 201}, {42, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "btmGetGPS",
+          "alpha" : 0.29999999999999999,
+          "frame" : "{{145, 314}, {80, 32}}",
+          "tint_color" : "RGBA(0.264706,1.000000,0.894958,1.000000)",
+          "title" : "📡",
+          "uuid" : "92AD293D-E7CC-4F62-996C-8B60D51B4D12",
+          "class" : "Button",
+          "name" : "btmGPS",
+          "font_size" : 15
+        },
+        "selected" : true
       }
     ],
-    "frame" : "{{0, 0}, {347, 660}}",
+    "frame" : "{{0, 0}, {370, 660}}",
     "class" : "View",
     "attributes" : {
-      "name" : "mask search",
-      "enabled" : true,
       "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "enabled" : true,
       "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "name" : "mask search",
       "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
       "flex" : ""
     },
