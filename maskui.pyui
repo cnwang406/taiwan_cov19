@@ -1,0 +1,330 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 20}, {114, 38}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{99, 314}, {150, 32}}",
+          "uuid" : "AB3B4338-426C-4EF6-BD05-9168558A45A7",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "child",
+          "name" : "lChild",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 63}, {114, 38}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{99, 314}, {150, 32}}",
+          "uuid" : "AB3B4338-426C-4EF6-BD05-9168558A45A7",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "adult",
+          "font_size" : 18,
+          "name" : "lAdult"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{214, 20}, {127, 34}}",
+        "class" : "Slider",
+        "attributes" : {
+          "flex" : "W",
+          "continuous" : true,
+          "action" : "slider_action",
+          "frame" : "{{74, 313}, {200, 34}}",
+          "uuid" : "A5959A90-D808-4CDD-925D-A406BF55DBD9",
+          "class" : "Slider",
+          "value" : 0.5,
+          "name" : "sChild"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{214, 62}, {127, 34}}",
+        "class" : "Slider",
+        "attributes" : {
+          "flex" : "W",
+          "continuous" : true,
+          "action" : "slider_action",
+          "frame" : "{{74, 313}, {200, 34}}",
+          "class" : "Slider",
+          "uuid" : "A5959A90-D808-4CDD-925D-A406BF55DBD9",
+          "value" : 0.5,
+          "name" : "sAdult"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{122, 20}, {84, 38}}",
+        "class" : "TextField",
+        "attributes" : {
+          "name" : "txtChild",
+          "background_color" : "RGBA(0.991597,1.000000,0.941176,1.000000)",
+          "frame" : "{{74, 314}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "07B9B679-8049-45B6-82BF-3D44D5916A76",
+          "alignment" : "left",
+          "text" : "100",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{122, 63}, {84, 38}}",
+        "class" : "TextField",
+        "attributes" : {
+          "font_name" : "<System>",
+          "background_color" : "RGBA(0.987395,1.000000,0.911765,1.000000)",
+          "frame" : "{{74, 314}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "07B9B679-8049-45B6-82BF-3D44D5916A76",
+          "alignment" : "left",
+          "text" : "0",
+          "autocorrection_type" : "default",
+          "name" : "txtAdult",
+          "font_size" : 17
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 109}, {114, 38}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "lDistance",
+          "frame" : "{{99, 314}, {150, 32}}",
+          "uuid" : "AB3B4338-426C-4EF6-BD05-9168558A45A7",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "distance(km)",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{122, 109}, {84, 38}}",
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "background_color" : "RGBA(0.987395,1.000000,0.911765,1.000000)",
+          "frame" : "{{74, 314}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "07B9B679-8049-45B6-82BF-3D44D5916A76",
+          "alignment" : "left",
+          "text" : "5",
+          "autocorrection_type" : "default",
+          "name" : "txtDistance",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{212, 109}, {129, 34}}",
+        "class" : "Slider",
+        "attributes" : {
+          "flex" : "W",
+          "continuous" : true,
+          "action" : "slider_action",
+          "frame" : "{{74, 313}, {200, 34}}",
+          "uuid" : "A5959A90-D808-4CDD-925D-A406BF55DBD9",
+          "class" : "Slider",
+          "value" : 0.5,
+          "name" : "sDistance"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 155}, {114, 38}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{99, 314}, {150, 32}}",
+          "uuid" : "AB3B4338-426C-4EF6-BD05-9168558A45A7",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "max items",
+          "name" : "lMaxCount",
+          "font_size" : 18
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{122.00000000000001, 155}, {83.999999999999986, 38.000000000000028}}",
+        "class" : "TextField",
+        "attributes" : {
+          "font_name" : "<System>",
+          "background_color" : "RGBA(0.974790,1.000000,0.823529,1.000000)",
+          "frame" : "{{74, 314}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "07B9B679-8049-45B6-82BF-3D44D5916A76",
+          "alignment" : "left",
+          "text" : "5",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "name" : "txtMaxCount"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{212, 155}, {129, 34}}",
+        "class" : "Slider",
+        "attributes" : {
+          "flex" : "W",
+          "continuous" : true,
+          "action" : "slider_action",
+          "frame" : "{{74, 313}, {200, 34}}",
+          "uuid" : "A5959A90-D808-4CDD-925D-A406BF55DBD9",
+          "class" : "Slider",
+          "value" : 0.5,
+          "name" : "sMaxCount"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{14, 201}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "9E014725-F5AC-49EE-9FAE-31FF3BDE95D4",
+          "corner_radius" : 3,
+          "background_color" : "RGBA(0.941176,0.957983,1.000000,1.000000)",
+          "frame" : "{{134, 314}, {80, 32}}",
+          "border_color" : "RGBA(0.823529,0.823529,1.000000,1.000000)",
+          "border_width" : 2,
+          "title" : "Go",
+          "action" : "btm_Go",
+          "alpha" : 1,
+          "class" : "Button",
+          "name" : "btmOk",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 241}, {335, 419}}",
+        "class" : "TextView",
+        "attributes" : {
+          "uuid" : "0584A3BA-03C7-49C9-A958-8643AE6AD2C9",
+          "font_size" : 17,
+          "frame" : "{{74, 230}, {200, 200}}",
+          "border_color" : "RGBA(0.957983,1.000000,0.941176,1.000000)",
+          "editable" : false,
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "text_color" : "RGBA(0.327731,0.058824,1.000000,1.000000)",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "name" : "txtResult",
+          "flex" : "WH"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{122, 201.00000000000003}, {102, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "name" : "txtHomeLon",
+          "frame" : "{{74, 314}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "957EB3C6-4E4E-4A46-96AB-8EB246B79247",
+          "alignment" : "left",
+          "text" : "121.0185",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{239, 201.00000000000003}, {102, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{74, 314}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "957EB3C6-4E4E-4A46-96AB-8EB246B79247",
+          "alignment" : "left",
+          "text" : "24.833318",
+          "autocorrection_type" : "default",
+          "name" : "txtHomeLat",
+          "font_size" : 17
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {347, 660}}",
+    "class" : "View",
+    "attributes" : {
+      "name" : "mask search",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
